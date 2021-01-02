@@ -1,0 +1,56 @@
+.fondo{
+
+    background-image: url(img/fondo3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.barra1{
+    height: 25px;
+    margin-top: 45px;
+}
+
+.php{
+   width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.php2
+{
+    width: 100px;
+     height: 100px;
+ }
+
+.css2{
+        width: 100px;
+         height: 100px;
+         margin-bottom: 15px;
+}
+
+.c{
+    background-color: #673ab7;
+}
+
+.html{
+    background-color: #ff9800;
+}
+
+.css{
+    background-color: #03a9f4;
+}
+
+#cont1{
+    border: 2px  #64b5f6 solid;
+    border-radius: 20px;
+    background-color: #81d4fa;
+}
+
+.textonav{
+margin-left: 10px;
+}
+
+.textonav2{
+    margin-left: 15px;
+    }
