@@ -6,16 +6,76 @@
     
 }
 
+.fondo2{
+
+    background-image: url(img/fondo4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
 .barra1{
-    height: 25px;
-    margin-top: 45px;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 5px;
 }
 
 .php{
-   width: 100px;
-    height: 100px;
+   width: 70px;
+    height: 70px;
     margin-bottom: 5px;
 }
+
+
+footer{
+    background-color: #424242;
+    text-align: center;
+    width: 100%;
+}
+
+.textofooter{
+    color: #e0e0e0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.iconofooter{
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+.iconogithub{
+    margin-top: 20px;
+    color: #e0e0e0;
+    margin-left: 50px;
+}
+
+.footer2{
+    background-color: #eeeeee;
+    text-align: center;
+    width: 100%;
+}
+
+.textofooter2{
+    color: #00b0ff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.iconofooter2{
+    margin-top: 20px;
+    color: #00b0ff;
+}
+
+.iconogithub2{
+    margin-top: 20px;
+    color: #00b0ff;
+    margin-left: 50px;
+}
+
+
 
 .php2
 {
@@ -24,8 +84,8 @@
  }
 
 .css2{
-        width: 100px;
-         height: 100px;
+        width: 70px;
+         height: 70px;
          margin-bottom: 15px;
 }
 
@@ -47,6 +107,12 @@
     background-color: #81d4fa;
 }
 
+#cont2{
+    border: 2px  #b39ddb solid;
+    border-radius: 20px;
+    background-color: #ede7f6;
+}
+
 .textonav{
 margin-left: 10px;
 }
@@ -54,3 +120,55 @@ margin-left: 10px;
 .textonav2{
     margin-left: 15px;
     }
+
+.card{
+
+    height: 300px;
+    width: 300px;
+    
+
+}
+
+.margencard{
+
+    margin-top: 110px;
+
+}
+
+.margindiv{
+
+    margin-left: 200px;
+
+}
+
+.marginaudio{
+    margin-bottom: 200px;
+}
+
+.colortitulo{
+    color: white;
+}
+
+.carrusel{
+
+    height: 450px;
+    border-radius: 10px;
+
+}
+
+.iconos{
+
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+
+}
+
+.fondolist{
+    background-color: #ede7f6;
+}
+
+.titulos{
+    text-align: center;
+    margin-top: 5px;
+}
