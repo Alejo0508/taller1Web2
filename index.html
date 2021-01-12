@@ -14,9 +14,9 @@
 <body class="fondo">
 
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container-fluid">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid sticky-top">
                 <img src="img/programacion.png" alt="" width="40" height="40" class="d-inline-block align-center">
                 <a class="navbar-brand textonav" href="index.html">Alejandro Montoya || Full Stack developer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,14 +41,31 @@
     <main>
 
         <br>
-        <div class="container">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner carrusel">
-                    <div class="carousel-item active">
-                        <img src="img/Foto-10.jpg" class="d-block w-100" alt="...">
-                    </div>
+
+        <div class="container ">
+
+            <div id="carouselExampleIndicators" class="carousel slide  " data-bs-ride="carousel">
+                <ol class="carousel-indicators ">
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/Foto-10.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/disparo.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
 
         </div><br><br>
 
@@ -71,9 +88,9 @@
                             entrenador deportivo: Durante años me desempeñe como entrenador de tiro con arco y
                             deportista logrando representar el pais y el departamento</li>
                         <li class="list-group-item fondolist"><img src="img/code.png" class="iconos" alt="">En la
-                            actualidad realizo mi sueño ¡Ser programador!, apenas estoy comenzando pero entre mis planes
-                            esta certificarme en oracle, microsoft, terminar la tecnologia y esta tecnica y
-                            ecpecializacon claro está.</li>
+                            actualidad realizo mi sueño, ¡Ser programador!, apenas estoy comenzando pero entre mis planes
+                            esta certificarme en oracle, microsoft, terminar la tecnologia y esta tecnica con
+                            ecpecializacon, claro está.</li>
                     </ul>
 
 
@@ -204,7 +221,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <a href="https://www.instagram.com/alejandromg0805/">
+                    <a href="https://www.instagram.com/alejo_montoyag/">
                         <i class="fab fa-instagram fa-5x iconofooter2"></i>
                     </a>
                     <a href="https://github.com/Alejo0508">
