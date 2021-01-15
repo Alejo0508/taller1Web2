@@ -131,22 +131,35 @@ margin-left: 10px;
 
 .margencard{
 
-    margin-top: 110px;
-
+    margin-top: 150px;
 }
 
 .margindiv{
 
-    margin-left: 200px;
-
+    margin-left: 180px;
 }
 
 .marginaudio{
     margin-bottom: 200px;
+    padding-left: 0%;
+    padding-right: 25px;
 }
 
 .colortitulo{
     color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.aligntituloscar{
+    text-align: center;    
+}
+
+.imagencarrusel{
+
+    height: 265px;
+    width: 298px;
+
 }
 
 .iconos{
