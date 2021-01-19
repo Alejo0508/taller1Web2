@@ -105,6 +105,7 @@ footer{
     border: 2px  #64b5f6 solid;
     border-radius: 20px;
     background-color: #81d4fa;
+    margin-right: 180px;
 }
 
 #cont2{
@@ -157,9 +158,7 @@ margin-left: 10px;
 
 .imagencarrusel{
 
-    height: 265px;
-    width: 298px;
-
+    border-radius: 10px;
 }
 
 .iconos{
@@ -177,4 +176,19 @@ margin-left: 10px;
 .titulos{
     text-align: center;
     margin-top: 5px;
+}
+
+.marghobbie{
+    justify-content: center;
+    margin-top: 200px;
+}
+.tamhobbie{
+    height: 490px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.marginfooter{
+    margin-top: 20px;
 }
